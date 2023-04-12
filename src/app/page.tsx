@@ -6,7 +6,7 @@ import { signIn, signOut } from 'next-auth/react'
 export default function Home() {
   return (
     <div>
-      <button onClick={() => signIn("github")} >SignIn</button>
+      <button onClick={() => signIn()} >SignIn</button>
       <button onClick={() => signOut()} >SignOut</button>
     </div>
   )
