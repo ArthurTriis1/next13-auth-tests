@@ -78,6 +78,12 @@ export const authOptions: AuthOptions = {
 
         return token
     },
+  },
+  theme: {
+    colorScheme: "light", // "auto" | "dark" | "light"
+    brandColor: "#FFF000", // Hex color code
+    logo: "", // Absolute URL to image
+    buttonText: "#FFF000", // Hex color code
   }
 }
 
